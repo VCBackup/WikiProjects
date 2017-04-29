@@ -2,30 +2,55 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px 15%;
+    margin: 0px 14%;
 }
 p{
     font-family: sans-serif;
-    margin: 0px;
+    margin: 10px;
+    line-height: 1.5;
+}
+a{
+    color: #0645BC;
+    text-decoration: initial;
+}
+#wikimedia{
+    font-weight: 900;
 }
 header{
     position: relative;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 .pic-dimensions{
     height: 150px;
     width: 150px;
-    margin: 15px 15px;
+    margin: 30px 25px;
     object-fit: scale-down;
 }
 #welcome-text{
     font-weight: 700;
     float: right;
 }
-#pic-grid{
+#pic-grid-main{
     display: inline-block;
 }
 img{
     display: inline-block;
+}
+#footer-main{
+    text-align: center;
+    font-size: 13px;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 1px;
+}
+#tail-link-text1{
+    float: left;
+    margin-left: 310px;
+
+}
+#tail-link-text2{
+    float: right;
+    margin-right: 310px;
 }
