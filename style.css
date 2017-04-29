@@ -2,5 +2,30 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0px 15%;
+}
+p{
+    font-family: sans-serif;
     margin: 0px;
+}
+header{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pic-dimensions{
+    height: 150px;
+    width: 150px;
+    margin: 15px 15px;
+    object-fit: scale-down;
+}
+#welcome-text{
+    font-weight: 700;
+    float: right;
+}
+#pic-grid{
+    display: inline-block;
+}
+img{
+    display: inline-block;
 }
